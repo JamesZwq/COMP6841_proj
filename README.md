@@ -1,14 +1,14 @@
 # COMP6841_proj
 setup：
 
-'
+`
 curl -kL dexterindustries.com/update_grovepi | bash
-'
+`
 to setup grovepi
 
-'
+`
 sudo python3 frist_time_setup.py
-'
+`
 to setup the project
 
 
