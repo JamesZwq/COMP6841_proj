@@ -1,5 +1,5 @@
 # COMP6841_proj
-setup：
+### **Setup**
 
 `
 curl -kL dexterindustries.com/update_grovepi | bash
@@ -11,14 +11,14 @@ sudo python3 frist_time_setup.py
 `
 to setup the project
 
-
+### **Video**
 youtube link:
 
 https://www.youtube.com/watch?v=wCiVEr4_N0E
 
 
 
-Reference for the code above:
+### **Reference**
 
 File: rgbscreen.py
 
