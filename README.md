@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=wCiVEr4_N0E
   + #### phase_out_wifi.py:
   Turn off phishing by changing all changed files to what they were before and reboot.
   + #### rgbscreen.py:
-  Color the screen and control the text displayed on the screen.
+  Control the color and text displayed on the screen.
   + #### server.py:
   The back-end of the login page, to accept the submitted table by the front-end and store the data.
   + #### setup_wifi.py:
