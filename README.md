@@ -12,7 +12,7 @@ sudo python3 frist_time_setup.py
 to setup the project
 
 ## **Handware**
-+ Raspberry Pi 4 Model B
++ Raspberry Pi 4 Model B 4GB
 + Grovepi+
 + Grove - Button(P)
 + Grove - Switch(P)
