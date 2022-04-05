@@ -90,6 +90,7 @@ def swich_typ():
     typ = curr_typ
 
 def write_value_to_device():
+    if int(get_number_of_zid_password()) == 0: return "No data"
     succ = 0
     try: 
         #if usbdev Non-existent, create it
