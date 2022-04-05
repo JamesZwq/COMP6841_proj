@@ -26,7 +26,7 @@ to setup the project
 + Grove - Rotary Angle Sensor
 
 ## **Video**
-youtube link:
+YouTube link:
 
 https://www.youtube.com/watch?v=wCiVEr4_N0E
 
