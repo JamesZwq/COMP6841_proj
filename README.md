@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=wCiVEr4_N0E
   Fishing can be easily turned on and off
   + #### Num connecting:
   View  the total number of devices connected to this hotspot in real—time
-  + ####Num zid received:
+  + #### Num zid received:
   View the total number of Zid and passwords that have been received in real-time
   + #### Get data:
   Insert the usb device into the usb port on the side, and then you can use this option to write the obtained zid and password to the usb device. If the usb device cannot be written or the usb device is not detected, the screen will display "no device", if The number of zid and password that have been obtained is 0, the screen will display "No data", if the writing is successful, it will display "success", data.txt and data.json will be written to the usb device, and the usb device will be ejected safely.
