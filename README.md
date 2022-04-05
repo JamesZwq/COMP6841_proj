@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=wCiVEr4_N0E
   + #### Get data:
   Insert the usb device into the usb port on the side, and then you can use this option to write the obtained zid and password to the usb device. If the usb device cannot be written or the usb device is not detected, the screen will display "no device", if The number of zid and password that have been obtained is 0, the screen will display "No data", if the writing is successful, it will display "success", data.txt and data.json will be written to the usb device, and the usb device will be ejected safely.
   + #### Clear Acquired Data:
-  Delete all zid and password that have been obtained
+  Delete all zid and password that have been acquired, The screen displays "success" if the cleanup is successful, and "error, no data" if there is currently no data
   + #### poweroff ? :
   Basic function, shutdown
 
