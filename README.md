@@ -13,6 +13,7 @@ to setup the project
 
 ## **Tested version**
 + raspberrypi v5.10.103
++ Python 3.7.3
 + hostapd v2.8
 + lighttpd v1.4.53
 + Dnsmasq v2.80
