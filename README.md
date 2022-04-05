@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=wCiVEr4_N0E
   + #### poweroff ? :
   Basic function, shutdown
 
-### **File introduction**:
+## **File introduction**:
   + #### frist_time_setup.py:
   For first time setup, install hostapd, dnsmasq and lighttpd, and add main.py to boot.
   + #### hardware.py:
