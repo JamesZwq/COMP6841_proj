@@ -71,9 +71,11 @@ address=/#/192.168.0.1
     run_command("sudo service dnsmasq restart")
 
     #setup lighttpd
+    #add " server.error-handler-404 = "/index.html" "
     run_command("sudo cp /home/pi/6841_proj/setup_wifi_file/lighttpd.conf /etc/lighttpd/lighttpd.conf")
 
     #setup frontend
+    #Copy all frontend files to /var/www/html/
     run_command("sudo cp /home/pi/6841_proj/setup_wifi_file/index.html /var/www/html/index.html")
     run_command("sudo cp /home/pi/6841_proj/setup_wifi_file/unswico.png /var/www/html/unswico.png")
     run_command("sudo cp /home/pi/6841_proj/setup_wifi_file/unswbackground.jpg /var/www/html/unswbackground.jpg")
