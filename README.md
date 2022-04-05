@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=wCiVEr4_N0E
   #### server.py:
   The back-end of the login page, to accept the submitted table by the front-end and store the data.
   #### setup_wifi.py:
-  Enabling fishing is the core of the entire project. Change the settings of hostapd, dnsmasq and lighttpd to enable fishing. The function of each step is mentioned in the comments of this file.
+  Enabling fishing is the core of the entire project. Change the settings of interfaces, hostapd, dnsmasq and lighttpd to enable fishing. The function of each step is mentioned in the comments of this file.
   #### wifi_connect_detile.py:
   Get the current number of device connected this hot spot, the currently acquired zid and password, and the current phishing status.
   
