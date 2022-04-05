@@ -16,7 +16,15 @@ youtube link:
 
 https://www.youtube.com/watch?v=wCiVEr4_N0E
 
-
+### **Functionalities**
+##menu:
+  push buttle to trun on/off wifi
+  Num connecting
+  Num zid received
+  Get data
+  Eject USB
+  Clear Acquired Data
+  poweroff ?
 
 ### **Reference**
 
