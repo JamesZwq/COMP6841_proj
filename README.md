@@ -12,7 +12,7 @@ sudo python3 frist_time_setup.py
 to setup the project
 
 ## **Tested version**
-+ raspberrypi 5.10.103
++ raspberrypi v5.10.103
 + hostapd v2.8
 + lighttpd v1.4.53
 + Dnsmasq v2.80
