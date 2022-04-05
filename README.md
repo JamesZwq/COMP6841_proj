@@ -22,6 +22,7 @@ to setup the project
 + There is screen that can display some menu option, and other information.
 + Attacker will have direct access to this information by simple operations after inserting a usb drive
 + This Hotspot can be turned to a harmless device with one single press on the button.
++ The screen changes colors through RGB cycling.
 
 ## **Handware**
 + Raspberry Pi 4 Model B 4GB
@@ -37,7 +38,7 @@ YouTube link:
 https://www.youtube.com/watch?v=wCiVEr4_N0E
 
 ## **Functionalities**
-### **1. menu**:
+### **menu**:
   + #### push button to turn on/off Phishing:
   Fishing can be easily turned on and off
   + #### Num connecting:
@@ -50,7 +51,6 @@ https://www.youtube.com/watch?v=wCiVEr4_N0E
   Delete all zid and password that have been acquired, The screen displays "success" if the cleanup is successful, and "error, no data" if there is currently no data
   + #### poweroff ? :
   Basic function, shutdown
-### **2. The screen changes colors through RGB cycling**
 
 ## **File introduction**:
   + #### frist_time_setup.py:
