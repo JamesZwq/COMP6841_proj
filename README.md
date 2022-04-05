@@ -38,6 +38,7 @@ https://www.youtube.com/watch?v=wCiVEr4_N0E
   Delete all zid and password that have been acquired, The screen displays "success" if the cleanup is successful, and "error, no data" if there is currently no data
   + #### poweroff ? :
   Basic function, shutdown
+### **The screen changes colors through RGB cycling**
 
 ## **File introduction**:
   + #### frist_time_setup.py:
