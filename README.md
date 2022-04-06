@@ -1,4 +1,7 @@
 # COMP6841_proj
+## **introduction**
+This is a fishing Wi—Fimodeled on unsw wifi running on raspberry pi,can do some operations on other hardware through grovepi+.
+
 ## **Setup**
 
 `
@@ -19,11 +22,12 @@ to setup the project
 + Dnsmasq v2.80
 
 ## **Ability**
-+ redirect newly connect user to a Captive Portal
-+ There is screen that can display some menu option, and other information.
++ Redirect newly connect user to a Captive Portal
++ There is screen that can display some menu option, and select some actions.
 + Attacker will have direct access to this information by simple operations after inserting a usb drive
 + This Hotspot can be turned to a harmless device with one single press on the button.
 + The screen changes colors through RGB cycling.
++ Screen can be easily closed
 
 ## **Handware**
 + Raspberry Pi 4 Model B 4GB
