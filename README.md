@@ -8,6 +8,11 @@ YouTube link:
 
 https://www.youtube.com/watch?v=wCiVEr4_N0E
 
+## **Code**
+Github link:
+
+https://github.com/Jamesxwq/COMP6841_proj
+
 ## **Setup**
 
 `
