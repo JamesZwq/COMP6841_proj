@@ -82,7 +82,7 @@ to setup the project
   Enabling fishing is the core of the entire project. Change the settings of interfaces, hostapd, dnsmasq and lighttpd to enable fishing. The function of each step is mentioned in the comments of this file.
   + #### wifi_connect_detile.py:
   Get the current number of device connected this hot spot, the currently acquired zid and password, and the current phishing status.
-  
+
 ## **What I learn**:
 + Basic understanding on Rospberry Pi.
 + Basic understanding on Phsihing WIFI/Hotspot
