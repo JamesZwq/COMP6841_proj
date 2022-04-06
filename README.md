@@ -1,4 +1,5 @@
-# COMP6841_proj
+# COMP6841 Project
+
 ## **Introduction**
 This is a fishing wifi modeled on unsw's wifi running on raspberry pi, can do some operations on other hardware through grovepi+.
 
