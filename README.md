@@ -2,6 +2,11 @@
 ## **Introduction**
 This is a fishing wifi modeled on unsw's wifi running on raspberry pi, can do some operations on other hardware through grovepi+.
 
+## **Video**
+YouTube link:
+
+https://www.youtube.com/watch?v=wCiVEr4_N0E
+
 ## **Setup**
 
 `
@@ -36,11 +41,6 @@ to setup the project
 + Grove - Switch(P)
 + Grove - LCD RGB backlight v4
 + Grove - Rotary Angle Sensor
-
-## **Video**
-YouTube link:
-
-https://www.youtube.com/watch?v=wCiVEr4_N0E
 
 ## **Functionalities**
 ### **menu**:
