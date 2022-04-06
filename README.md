@@ -26,14 +26,6 @@ to setup the project
 + lighttpd v1.4.53
 + Dnsmasq v2.80
 
-## **Ability**
-+ Redirect newly connect user to a Captive Portal
-+ There is screen that can display some menu option, and select some actions.
-+ Attacker will have direct access to this information by simple operations after inserting a usb drive
-+ This Hotspot can be turned to a harmless device with one single press on the button.
-+ The screen changes colors through RGB cycling.
-+ Screen can be easily closed
-
 ## **Handware**
 + Raspberry Pi 4 Model B 4GB
 + Grovepi+
@@ -41,6 +33,14 @@ to setup the project
 + Grove - Switch(P)
 + Grove - LCD RGB backlight v4
 + Grove - Rotary Angle Sensor
+
+## **Ability**
++ Redirect newly connect user to a Captive Portal
++ There is screen that can display some menu option, and select some actions.
++ Attacker will have direct access to this information by simple operations after inserting a usb drive
++ This Hotspot can be turned to a harmless device with one single press on the button.
++ The screen changes colors through RGB cycling.
++ Screen can be easily closed
 
 ## **Functionalities**
 ### **menu**:
