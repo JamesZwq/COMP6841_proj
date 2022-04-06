@@ -77,6 +77,12 @@ to setup the project
   + #### wifi_connect_detile.py:
   Get the current number of device connected this hot spot, the currently acquired zid and password, and the current phishing status.
   
+## **What I learn**:
++ Basic understanding on Rospberry Pi.
++ Basic understanding on Phsihing WIFI/Hotspot
++ Operations of Rospberry Pi.
++ Practices into Embedded Programming.
++ Fundemental Principal of Online Phising.
 
 ## **Reference**
 
