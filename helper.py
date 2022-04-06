@@ -32,8 +32,9 @@ def run_command_with_error_message(command):
     status, output = commands.getstatusoutput(command)
     return [status, output]
 
+
+#add “sudo /usr/bin/python3 /home/pi/6841_proj/main.py” brfore “exit 0”
 def write_to_rclocal():
-    #add “sudo /usr/bin/python3 /home/pi/6841_proj/main.py” brfore “exit 0”
     fd = open("/etc/rc.local", "r")
     if fd.read().count('exit 0') != 2:
         print(FAIL, "Error: /etc/rc.local does not contain exit 0", ENDC)

