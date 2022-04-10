@@ -10,11 +10,16 @@ Github link:
 https://github.com/Jamesxwq/COMP6841_proj
 
 ## **Video**
+The video of these two links is the same, but Youtube will have a higher definition.
+
+Flipgrid link:
+
+https://flipgrid.com/s/4XwfRhBxYBLC
+
 YouTube link:
 
 https://www.youtube.com/watch?v=wCiVEr4_N0E
 
-------------------------------------------------
 ## **Setup**
 `
 curl -kL dexterindustries.com/update_grovepi | bash
