@@ -72,7 +72,9 @@ address=/#/192.168.0.1
     run_command("sudo service dnsmasq restart")
 
     #setup lighttpd
+    #lighttpd is a web server, This is necessary to run the front end
     #add " server.error-handler-404 = "/index.html" "
+    #Redirect to /var/www/html/index.html when no network
     run_command("sudo cp /home/pi/6841_proj/setup_wifi_file/lighttpd.conf /etc/lighttpd/lighttpd.conf")
 
     #setup frontend
